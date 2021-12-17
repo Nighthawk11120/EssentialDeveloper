@@ -100,8 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				56DE40A5276D1ED30091474D /* AppDelegate.swift */,
-				56DE40D0276D1EE20091474D /* FeedItem.swift */,
-				56DE40D2276D1F5A0091474D /* FeedLoader.swift */,
+				56DE40D4276D20050091474D /* Feed Feature */,
 				56DE40A7276D1ED30091474D /* ViewController.swift */,
 				56DE40A9276D1ED30091474D /* Assets.xcassets */,
 				56DE40AB276D1ED30091474D /* Main.storyboard */,
@@ -125,6 +124,15 @@
 				56DE40C3276D1ED40091474D /* EssentialFeedUITestsLaunchTests.swift */,
 			);
 			path = EssentialFeedUITests;
+			sourceTree = "<group>";
+		};
+		56DE40D4276D20050091474D /* Feed Feature */ = {
+			isa = PBXGroup;
+			children = (
+				56DE40D0276D1EE20091474D /* FeedItem.swift */,
+				56DE40D2276D1F5A0091474D /* FeedLoader.swift */,
+			);
+			path = "Feed Feature";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
