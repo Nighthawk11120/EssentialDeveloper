@@ -14,6 +14,7 @@
 		56DE40B8276D1ED40091474D /* EssentialFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DE40B7276D1ED40091474D /* EssentialFeedTests.swift */; };
 		56DE40C2276D1ED40091474D /* EssentialFeedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DE40C1276D1ED40091474D /* EssentialFeedUITests.swift */; };
 		56DE40C4276D1ED40091474D /* EssentialFeedUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DE40C3276D1ED40091474D /* EssentialFeedUITestsLaunchTests.swift */; };
+		56DE40D1276D1EE20091474D /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DE40D0276D1EE20091474D /* FeedItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		56DE40BD276D1ED40091474D /* EssentialFeedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56DE40C1276D1ED40091474D /* EssentialFeedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialFeedUITests.swift; sourceTree = "<group>"; };
 		56DE40C3276D1ED40091474D /* EssentialFeedUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialFeedUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		56DE40D0276D1EE20091474D /* FeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				56DE40A5276D1ED30091474D /* AppDelegate.swift */,
+				56DE40D0276D1EE20091474D /* FeedItem.swift */,
 				56DE40A7276D1ED30091474D /* ViewController.swift */,
 				56DE40A9276D1ED30091474D /* Assets.xcassets */,
 				56DE40AB276D1ED30091474D /* Main.storyboard */,
@@ -253,6 +256,7 @@
 			files = (
 				56DE40A8276D1ED30091474D /* ViewController.swift in Sources */,
 				56DE40A6276D1ED30091474D /* AppDelegate.swift in Sources */,
+				56DE40D1276D1EE20091474D /* FeedItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
