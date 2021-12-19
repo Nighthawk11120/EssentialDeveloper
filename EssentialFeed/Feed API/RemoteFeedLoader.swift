@@ -62,10 +62,10 @@ private class FeedItemsMapper {
         let id: UUID
         let description: String?
         let location: String?
-        let imageURL: URL
-        
+        let image: URL
+
         var item: FeedItem {
-            return FeedItem(id: id, description: description, location: location, imageURL: imageURL)
+            return FeedItem(id: id, description: description, location: location, imageURL: image)
         }
     }
     
@@ -78,3 +78,4 @@ private class FeedItemsMapper {
         return root.items.map { $0.item }
     }
 }
+
